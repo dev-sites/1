@@ -1,0 +1,31 @@
+.wrap {
+  background-color: #fff;
+  padding-bottom: 90px;
+  padding-top: 40px;
+}
+span.active {
+  color: #7392A6;
+}
+.btn {
+  transition: background-color ease 0.2s;
+}
+// posts
+.posts section{
+  margin-bottom: 30px;
+  h1 {
+    text-align: left;
+  }
+  article {
+    padding: 30px 0px;
+  }
+}
+
+@media(min-width:768px) {
+  .posts section {
+    article {
+      padding-left: 20px;
+      padding-right: 20px;
+      background-color: #F4F4F4;
+    }
+  }
+}

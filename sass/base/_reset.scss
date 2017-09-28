@@ -1,0 +1,51 @@
+// Reset Bootstrap
+.icon-bar {
+  background-color: #fff;
+}
+footer div p,
+footer div ul li a,
+footer div ul li a:hover,
+footer div ul li a:active,
+footer div ul li a:focus {
+  color: #999;
+}
+.mastnav li a:hover,
+.mastnav li a:active,
+.mastnav li a:focus{
+  background-color: transparent;
+}
+.navbar {
+  margin-bottom: 0;
+}
+a.navbar-brand {
+  padding-left: 0;
+  padding-right: 0;
+}
+.mastnav li a {
+  padding-left: 0;
+  padding-right: 0;
+}
+.copyright p {
+  margin: 0;
+}
+.btn {
+  border-radius: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  background-color: $main-color;
+  width: 100%;
+}
+.btn:hover,
+.btn:active,
+.btn:focus {
+  background-color: $link-hover;
+  color: #fff;
+}
+
+@media (min-width: 992px) {
+  .mastnav li a {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}

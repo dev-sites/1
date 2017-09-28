@@ -1,0 +1,79 @@
+header {
+  position: relative;
+  box-shadow: 1px 5px 40px 5px rgba(0,0,0,0.3) inset;/*модная тень для хедера*/
+  background: url("../img/header.jpg") top center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.main-page {
+  opacity: 0;
+  transition: opacity .7s;
+}
+.background {
+  opacity: 1;
+}
+a.navbar-brand {
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-shadow: 0 0 1px rgba(0,0,0,0.6);
+}
+.mastnav li a {
+  color: #fff;
+  text-shadow: 0 0 1px rgba(0,0,0,0.6); /*тень для текста*/
+}
+.mastnav li a:hover,
+.mastnav li a:active,
+.mastnav li a:focus{
+  //background-color: #efefef;
+}
+.mastnav li a:focus {
+  color: $link-color-active;
+}
+.masttoggle {
+  border: 1px solid #fff;
+}
+.masttoggle:hover,
+.masttoggle:active,
+.masttoggle:focus {
+  background-color: rgba(255,255,255,0.2);
+}
+.mastnav li a:hover,
+.mastnav li a:active,
+.mastnav li a:focus,
+.mastnav .current-menu-item a{
+  background: rgba(255,255,255,0.2);
+}
+
+@media (min-width: 992px) {
+  header {
+    height: 100vh;
+    background-attachment: fixed;
+  }
+  .header-page {
+    height: 50vh;
+  }
+  .navbar {
+    padding: 40px 0;
+  }
+  a.navbar-brand {
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  .mastnav {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    right: 0;
+}
+  .mastnav li a {
+    margin-left: 20px;
+  }
+  .mastnav li a:hover,
+  .mastnav li a:active,
+  .mastnav li a:focus,
+  .mastnav .current-menu-item a {
+    border-bottom: 2px solid $link-color-active;
+    background: transparent;
+  }
+}

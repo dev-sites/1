@@ -1,0 +1,31 @@
+//header
+.mastnav li a,
+.load-more p,
+.btn {
+  font-size: 18px;
+}
+
+a.navbar-brand {
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+
+//content
+.content {
+  font-size: 18px;
+  h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    a,
+    a:hover,
+    a:active,
+    a:focus {
+      color: #444;
+      text-decoration: none;
+}
+  }
+}
+.copyright {
+  text-align: center;
+}
