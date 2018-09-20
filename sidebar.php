@@ -11,7 +11,7 @@
     </script>
     <h2>СЕГОДНЯ</h2>
     <div class="image"></div>
-    <div class="azbyka-saints"></div>
+    <div class="azbyka-holidays"></div>
 
     <script>
       $(function() {
@@ -41,10 +41,12 @@
 
           var src = 'https://azbyka.ru/days/assets/img/saints/' + data[id].id + '/' + data[id].imgs[img].image;
           var href = 'https://azbyka.ru/days/sv-' + data[id].uri;
+          var holidays = 'https://azbyka.ru/days/api/holidays/2017-10-30.json';
 
           $('.image').html('<a href = "' + href + '"><img src="' + src + '" title="' + title + '"/></a>');
           $('.image img').addClass('img-responsive center-block');
           $('.image img').height(160);
+          $('.holidays').html(holidays);
         });
       })
     </script>

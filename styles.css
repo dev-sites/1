@@ -84,9 +84,9 @@ header {
   background-size: cover;
   overflow: hidden; }
 
-/*.main-page {
+.main-page {
   opacity: 0;
-  transition: opacity .7s; }*/
+  transition: opacity .7s; }
 
 .background {
   opacity: 1; }
@@ -203,9 +203,8 @@ footer {
   .wrapper-blocks {
     padding-top: 40px;
     padding-bottom: 35px; } }
+
+/*# sourceMappingURL=styles.css.map */
 .wp-post-image {
   min-width: 100%;
 }
-
-
-/*# sourceMappingURL=styles.css.map */
