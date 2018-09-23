@@ -5716,8 +5716,7 @@ a.navbar-brand {
 header {
   position: relative;
   box-shadow: 1px 5px 40px 5px rgba(0, 0, 0, 0.3) inset;
-  /*модная тень для хедера*/
-  background-image: url("img/header.jpg");
+  background: url("img/header.jpg") top center no-repeat;
   background-size: cover;
   overflow: hidden; }
 
@@ -5793,18 +5792,15 @@ span.active {
 .btn {
   transition: background-color ease 0.2s; }
 
-.posts section {
+.post {
   margin-bottom: 30px; }
-  .posts section h1 {
+  .post h1 {
     text-align: left; }
-  .posts section article {
-    padding: 30px 0px; }
 
 @media (min-width: 768px) {
-  .posts section article {
+  .post {
     padding-left: 20px;
-    padding-right: 20px;
-    background-color: #F4F4F4; } }
+    padding-right: 20px; } }
 .sidebar-module {
   border-bottom: 1px solid #91A9D8;
   margin-bottom: 15px;

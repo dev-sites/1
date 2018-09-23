@@ -1,7 +1,7 @@
 header {
   position: relative;
-  box-shadow: 1px 5px 40px 5px rgba(0,0,0,0.3) inset;/*модная тень для хедера*/
-  background-image: url("img/header.jpg");// top center no-repeat;
+  box-shadow: 1px 5px 40px 5px rgba(0,0,0,0.3) inset;
+  background: url("img/header.jpg") top center no-repeat;
   background-size: cover;
   overflow: hidden;
 }
