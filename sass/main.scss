@@ -1,0 +1,13 @@
+@import "base/theme-name";
+
+@import "vendor/bootstrap.scss";
+
+@import "base/vars.scss",
+        "base/page.scss",
+        "base/reset.scss",
+        "base/typography.scss";
+
+@import "layouts/header.scss",
+        "layouts/main.scss",
+        "layouts/sidebar.scss",
+        "layouts/footer.scss";
