@@ -1,7 +1,7 @@
 <aside class="col-sm-4">
   <?php get_template_part('template-parts/days'); ?>
   <div class="sidebar-module">
-    <h2>РУБРИКИ</h2>
+    <h2>Рубрики</h2>
     <?php $args = array(
       'title_li' => '',
       'style'    => 'none'
@@ -10,7 +10,7 @@
     <?php # wp_nav_menu(array('menu' => 'Сайдбар Рубрики', 'menu_class' => 'list-unstyled')); ?>
   </div>
   <div class="sidebar-module">
-    <h2>ВКОНТАКТЕ</h2>
+    <h2>ВКонтакте</h2>
     <script type="text/javascript" src="//vk.com/js/api/openapi.js?142"></script>
     <div id="vk_groups"></div>
     <script type="text/javascript">
@@ -18,7 +18,7 @@
     </script>
   </div>
   <div class="sidebar-module">
-    <h2>СОЦИАЛЬНОЕ СЛУЖЕНИЕ</h2>
+    <h2>Социальное служение</h2>
     <a class="twitter-timeline" data-lang="ru" data-chrome="noheader nofooter" data-tweet-limit="3" href="https://twitter.com/sHMQTEJZaNBtaPg"></a>
     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
