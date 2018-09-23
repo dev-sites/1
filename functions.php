@@ -109,11 +109,10 @@
   }
 
   function cdko_scripts() {
-    wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css' );
     wp_enqueue_style( 'cdko-style', get_stylesheet_uri() );
   
-    wp_enqueue_script( 'cdko-main-js', get_template_directory_uri() . '/js/days.js');
-    wp_enqueue_script( 'cdko-main-js', get_template_directory_uri() . '/js/bootstrap.min.js');
+    wp_enqueue_script( 'days-js', get_template_directory_uri() . '/js/days.js');
+    wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js');
 
   }
   add_action( 'wp_enqueue_scripts', 'cdko_scripts' );
