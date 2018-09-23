@@ -21,7 +21,7 @@
             <p>&copy; Центр духовной культуры и образования Колпинского района 2017-<?php echo date('Y'); ?> Все права защищены</p>
           </div>
           <div class="col-sm-2 col-sm-offset-1 deskt">
-            <img src="/wp-content/themes/kolpino-cdko/img/kolpino.png" class="img-responsive" alt=""/>
+            <img src="<?php bloginfo('template_url'); ?>/img/kolpino.png" class="img-responsive" alt=""/>
           </div>
       </div>
     </footer>
