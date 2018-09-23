@@ -27,6 +27,4 @@
     </footer>
     <?php wp_footer(); ?>
   </body>
-  <script src="/wp-content/themes/kolpino-cdko/js/days.js"></script>
-  <script src="/wp-content/themes/kolpino-cdko/js/bootstrap.min.js"></script>
 </html>

@@ -8,14 +8,13 @@
     <title><?php is_home() ? bloginfo('description') : wp_title(''); ?></title>
   	<script src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/font-awesome.min.css">
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/styles.css?2">
     <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/img/favicon.ico" type="image/x-icon">
 
     <!-- Yandex.Metrika counter y-->
     <script src="<?php bloginfo('template_url'); ?>/js/yametrika.js"></script>
     <noscript><div><img src="https://mc.yandex.ru/watch/43314499" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
+    <?php wp_head(); ?>
   </head>
   <body>
     <header class="<?php if (is_home()) { echo "main-page"; } else { echo "header-page"; } ?>">
