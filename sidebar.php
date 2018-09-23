@@ -2,7 +2,11 @@
   <?php get_template_part('template-parts/days'); ?>
   <div class="sidebar-module">
     <h2>РУБРИКИ</h2>
-    <?php wp_list_categories(); ?>
+    <?php $args = array(
+      'title_li' => '',
+      'style'    => 'none'
+    );
+    wp_list_categories( $args ); ?>
     <?php # wp_nav_menu(array('menu' => 'Сайдбар Рубрики', 'menu_class' => 'list-unstyled')); ?>
   </div>
   <div class="sidebar-module">
