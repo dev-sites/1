@@ -1,0 +1,38 @@
+.posts {
+    padding: 0;
+}
+
+.post-wrapper {
+    margin-bottom: 40px;
+    border: 2px solid $main-color;
+    border-radius: 0 0 10px 10px;
+}
+
+.post {
+    padding: 20px;
+}
+  
+.post__image {
+    display: block;
+    height: 300px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    margin: -2px;
+}
+  
+.post__title {
+    margin-top: 0;
+}
+
+.post__content {
+    line-height: 1.5em;
+    max-height: 10em;
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .posts {
+        padding: 0 15px;
+    }
+}

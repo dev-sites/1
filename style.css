@@ -5701,8 +5701,7 @@ a.navbar-brand {
 .content {
   font-size: 18px; }
   .content h1 {
-    font-weight: bold;
-    text-transform: uppercase; }
+    font-weight: bold; }
     .content h1 a,
     .content h1 a:hover,
     .content h1 a:active,
@@ -5784,23 +5783,14 @@ a.navbar-brand {
 .wrap {
   background-color: #fff;
   padding-bottom: 90px;
-  padding-top: 40px; }
-
-span.active {
-  color: #7392A6; }
+  padding-top: 15px; }
 
 .btn {
   transition: background-color ease 0.2s; }
 
-.post {
-  margin-bottom: 30px; }
-  .post h1 {
-    text-align: left; }
-
-@media (min-width: 768px) {
-  .post {
-    padding-left: 20px;
-    padding-right: 20px; } }
+@media (nin-width: 768px) {
+  .wrap {
+    padding-top: 40px; } }
 .sidebar-module {
   border-bottom: 1px solid #91A9D8;
   margin-bottom: 15px;
@@ -5831,5 +5821,47 @@ footer {
     padding-bottom: 35px; } }
 .wp-post-image {
   min-width: 100%; }
+
+.blog-breadcrumb {
+  font-size: 30px;
+  padding: 0 15px;
+  margin-bottom: 20px; }
+
+span.active {
+  color: #7392A6; }
+
+@media (min-width: 768px) {
+  .blog-breadcrumb {
+    padding: 0; } }
+.posts {
+  padding: 0; }
+
+.post-wrapper {
+  margin-bottom: 40px;
+  border: 2px solid #6D85A5;
+  border-radius: 0 0 10px 10px; }
+
+.post {
+  padding: 20px; }
+
+.post__image {
+  display: block;
+  height: 300px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  margin: -2px; }
+
+.post__title {
+  margin-top: 0; }
+
+.post__content {
+  line-height: 1.5em;
+  max-height: 10em;
+  overflow: hidden; }
+
+@media (min-width: 768px) {
+  .posts {
+    padding: 0 15px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,15 @@
+.blog-breadcrumb {
+    font-size: 30px;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+
+span.active {
+    color: #7392A6;
+}
+
+@media (min-width: 768px) {
+    .blog-breadcrumb {
+        padding: 0;
+    }
+}
