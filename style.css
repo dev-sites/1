@@ -5856,9 +5856,7 @@ span.active {
   margin-top: 0; }
 
 .post__content {
-  line-height: 1.5em;
-  max-height: 10em;
-  overflow: hidden; }
+  line-height: 1.5em; }
 
 @media (min-width: 768px) {
   .posts {

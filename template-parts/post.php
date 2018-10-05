@@ -11,8 +11,8 @@
       <?php the_title(); ?>
     </a></h2>
     <p style="color:#888;"><span class="fa fa-calendar"></span> <?php echo get_the_date('d.m.Y'); ?> <span style="color:#888;" class="fa fa-clock-o"> </span> <?php echo get_the_time(); ?> <span class="fa fa-comment-o" style="color:#888;"> </span> <?php number_of_comments(); ?> </p>
-    <div class="post__content">
-      <?php the_content(' '); ?>
+    <div class="post_  _content">
+      <?php the_excerpt(); ?>
     </div>
     <a href="<?php the_permalink(); ?>">Читать далее</a>
   </div>
