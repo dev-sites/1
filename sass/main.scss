@@ -12,5 +12,6 @@
         "layouts/sidebar.scss",
         "layouts/footer.scss";
 
-@import "components/breadcrumb.scss",
+@import 'components/load-more-btn.scss',
+        "components/breadcrumb.scss",
         "components/post.scss";

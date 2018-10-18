@@ -5822,6 +5822,12 @@ footer {
 .wp-post-image {
   min-width: 100%; }
 
+.elm-button {
+  padding: 20px;
+  width: 100%;
+  text-transform: uppercase;
+  background: #6D85A5; }
+
 .blog-breadcrumb {
   font-size: 30px;
   padding: 0 15px;
