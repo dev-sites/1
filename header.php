@@ -8,7 +8,7 @@
     <title><?php is_home() ? bloginfo('description') : wp_title(''); ?></title>
   	<script src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/font-awesome.min.css">
-    <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/favicon.ico" type="image/x-icon">
 
     <!-- Yandex.Metrika counter y-->
     <script src="<?php bloginfo('template_url'); ?>/js/yametrika.js"></script>
